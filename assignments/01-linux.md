@@ -3,12 +3,13 @@
 ## 1. Excercise File
 
 ```bash
-mkdir -p wipcamp12/{programmer,website,network,ux-ui}
-cd wipcamp12
+sudo su -
+mkdir -p /home/wipcamp12/{programmer,website,network,ux-ui}
+cd /home/wipcamp12
 touch slide01.txt
 cp slide01.txt slide02.txt
 cp slide01.txt slide03.txt
-cd
+cd ..
 cp -R wipcamp12 wipcamp13
 cd wipcamp13
 rm slide03.txt
